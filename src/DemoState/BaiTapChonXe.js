@@ -67,10 +67,8 @@ export default class BaiTapChonXe extends Component {
                                     </div>
                                 </div>
 
-
                             </div>
                         </div>
-
 
                     </div>
                 </div>

@@ -35,12 +35,13 @@ export default class RenderWithMap extends Component {
                     <div className="card-body">
                         <h4 className="card-title">{products.name}</h4>
                         <p className="card-text">{products.price}</p>
+
                     </div>
                 </div>
 
             </div>
         });
-        //return arrjsx;
+        return arrjsx;
     }
     renderTable = () => {
         return this.products.map((products, index) => {
